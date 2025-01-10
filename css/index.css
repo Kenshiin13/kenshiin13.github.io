@@ -1011,11 +1011,12 @@ padding-bottom: 40px;
     overflow: hidden;
 }
 .blogs .img{
-    height: 80%;
+    height: auto;
     width: 100%;
     overflow: hidden;
     transition: all .65s ease;
     position: relative;
+    aspect-ratio: 16/9;
 }
 .blog-date{
     position: absolute;
@@ -1036,6 +1037,20 @@ padding-bottom: 40px;
     height: 100%;
     width: 100%;
     transition: all .65s ease;
+    object-fit: cover;
+}
+@media (min-width: 2560px) {
+    .blogs .img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1920px) {
+    .blogs .img img {
+        width: 100%;
+        height: auto;
+    }
 }
 .blog-text{
   height: 80%;
@@ -1519,6 +1534,7 @@ For devices with smaller width like mobile phone
         height:220px;
         padding: 5px;
         border-radius: 10%;
+        object-fit: cover;
     }
     .about-img {
         width: 100%;
@@ -1526,6 +1542,13 @@ For devices with smaller width like mobile phone
         text-align: center;
         overflow: hidden;
         border-radius: 10%;
+        aspect-ratio: 16/9;
+    }
+    @media (min-width: 2560px) {
+        .about-img img {
+            width: 100%;
+            height: auto;
+        }
     }
     .service{
         height:320px;
@@ -1622,6 +1645,7 @@ For devices with smaller width like mobile phone
                 left: 2.5%;
                 opacity: .8;
                 transition: all .4s ease;
+                will-change: transform;
                 display: none;
             }
             .blogs{
@@ -1637,6 +1661,7 @@ For devices with smaller width like mobile phone
                 width: 100%;
                 overflow: hidden;
                 transition: all .65s ease;
+                will-change: transform;
                 position: relative;
             }
             .blog-date{
@@ -1656,6 +1681,7 @@ For devices with smaller width like mobile phone
                 height: 100%;
                 width: 100%;
                 transition: all .65s ease;
+                will-change: transform;
             }
             .blog-text{
               height: auto;
@@ -1666,6 +1692,7 @@ For devices with smaller width like mobile phone
               color: whitesmoke;
               background-color: #000000;
               transition: all .5s ease;
+              will-change: transform;
             }
             .blog-text h3{
               font-size: 24px;
@@ -1798,6 +1825,7 @@ For devices with smaller width like mobile phone
                 border: none;
                 border-radius: 8px;
                 transition: all .4s ease;
+                will-change: transform;
             }
             form button:hover{
               opacity: 1;
@@ -1897,6 +1925,7 @@ for tabs and large phones
         animation: breakeranimate 2s linear;
         display: none;
         transition: all .4s ease;
+        will-change: transform;
         z-index: 10;
         position: fixed;
     }
@@ -1973,6 +2002,7 @@ for tabs and large phones
         height:380px;
         padding: 30px;
         border-radius: 40px;
+        pointer-events: none;
     }
     .about-img {
         width: 550px;
@@ -2127,6 +2157,7 @@ for tabs and large phones
                 height: 100%;
                 width: 100%;
                 transition: all .65s ease;
+                pointer-events: none;
             }
             .blog-text{
               height: auto;
