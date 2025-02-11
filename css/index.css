@@ -528,14 +528,15 @@ body{
     flex-direction: row;
 }
 .about-img img{
-    width: 100%;
-    height:380px;
-    padding: 30px;
-    border-radius: 40px;
+    position: relative;
+    width: 20.833vw;
+    height: 19.792vw;
+    padding: 1.563vw;
+    border-radius: 2.083vw;
 }
 .about-img {
     width: 550px;
-    height:auto;
+    height: auto;
     padding: 30px;
     padding-top: 10px;
     border-radius: 40px;
@@ -1004,10 +1005,9 @@ padding-bottom: 40px;
 }
 .blogs{
     height: 420px;
-    width: 40%;
+    width: 80%;
     margin: 20px;
     border-radius: 8px;
-    position: relative;
     overflow: hidden;
 }
 .blogs .img{
@@ -1529,21 +1529,24 @@ For devices with smaller width like mobile phone
         padding-right: 10px;
         flex-direction: column-reverse;
     }
-    .about-img img{
-        width: 280px;
-        height:220px;
-        padding: 5px;
-        border-radius: 10%;
-        object-fit: cover;
-    }
     .about-img {
-        width: 100%;
-        height:250px;
+        width: 280px;
+        height: 220px;
         text-align: center;
         overflow: hidden;
         border-radius: 10%;
         aspect-ratio: 16/9;
+        display: inline-block;
     }
+    
+    .about-img img {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+    
     @media (min-width: 2560px) {
         .about-img img {
             width: 100%;
@@ -2350,7 +2353,7 @@ for tabs and large phones
         height: 500px;
         width: 40%;
     }
-    .about-img img{
+    /* .about-img img{
         width: 100%;
         height:450px;
         padding: 30px;
@@ -2362,7 +2365,7 @@ for tabs and large phones
         height:450px;
         padding: 30px;
         border-radius: 40px;
-    }
+    } */
     .about-first-line{
         font-size: 45px;
         opacity: 1;
