@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.7cd9ec92.css",
-    "main.js": "/static/js/main.d3806f07.js",
+    "main.js": "/static/js/main.c925e086.js",
     "static/js/568.69b20da8.chunk.js": "/static/js/568.69b20da8.chunk.js",
     "static/js/748.98a433b0.chunk.js": "/static/js/748.98a433b0.chunk.js",
     "static/js/522.0f6c926d.chunk.js": "/static/js/522.0f6c926d.chunk.js",
     "static/js/994.e9bf1f5e.chunk.js": "/static/js/994.e9bf1f5e.chunk.js",
-    "static/js/461.e4352fbb.chunk.js": "/static/js/461.e4352fbb.chunk.js",
+    "static/js/461.1ded4fb7.chunk.js": "/static/js/461.1ded4fb7.chunk.js",
     "static/js/221.156d6964.chunk.js": "/static/js/221.156d6964.chunk.js",
     "vendors.js": "/static/js/vendors.feb4d431.js",
     "static/media/exodus.gif": "/static/media/exodus.4d5211f17c53d84d3908.gif",
@@ -15,6 +15,8 @@
     "static/media/revolution.png": "/static/media/revolution.46015c284ca38a0c33c7.png",
     "static/media/corleone.gif": "/static/media/corleone.8165adce02cd1383216e.gif",
     "static/media/nerov.gif": "/static/media/nerov.b7012a75f81ea6bcfadb.gif",
+    "static/media/crimelife.gif": "/static/media/crimelife.982d3e1068229bcbf20a.gif",
+    "static/media/alpha-city.gif": "/static/media/alpha-city.4640c515b6d98f6e1533.gif",
     "static/media/ws.png": "/static/media/ws.00f6749eb80cc1375951.png",
     "static/media/final.webp": "/static/media/final.c2b4e158f7fa4aa11216.webp",
     "static/media/ovara.png": "/static/media/ovara.b337cc659d2e50935e8d.png",
@@ -50,6 +52,6 @@
   "entrypoints": [
     "static/js/vendors.feb4d431.js",
     "static/css/main.7cd9ec92.css",
-    "static/js/main.d3806f07.js"
+    "static/js/main.c925e086.js"
   ]
 }
